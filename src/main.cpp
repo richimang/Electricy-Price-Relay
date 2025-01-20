@@ -9,8 +9,8 @@
 #include <vector>
 
 
-const char* ssid = "sauerkraut"; // Ersetze mit deinem WLAN-Namen
-const char* password = "Gasse_123."; // Ersetze mit deinem WLAN-Passwort
+const char* ssid = "your_SSID"; // Ersetze mit deinem WLAN-Namen
+const char* password = "your_Password."; // Ersetze mit deinem WLAN-Passwort
 WiFiClientSecure client;
 HTTPClient http;
 String serverName = "https://www.hvakosterstrommen.no/api/v1/prices/";
